@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PJ Tips</title>
+		<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="dateFunctions.js"></script>
+	</head>
+	<body>
+		<p id="fullDate">
+			<span id="day"></span>,
+			<span id="month"></span>/<span id="date"></span><span id="year"></span>
+		</p>
+	</body>
+	<script>
+		$(document).ready(function(){
+			$('#day').text(dayText);
+			$('#month').text(month);
+			$('#date').text(date);
+			$('#year').text(year);
+		});
+	</script>
+</html>
