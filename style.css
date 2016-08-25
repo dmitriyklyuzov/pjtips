@@ -1,0 +1,29 @@
+body {
+	font-size:1.5em;
+}
+
+#tipouts, label{
+	font-size:1.15em;
+}
+
+#go_button{
+	font-size:1em;
+	width:80%;
+}
+
+input{
+	font-size:1em;
+}
+
+#includeBarista, #includeShucker{
+	width: 25px; height: 25px;
+}
+
+#day{
+	text-align: center;
+}
+
+#address{
+	text-align: center;
+	color: gray;
+}
